@@ -1,15 +1,30 @@
 how-it-works-section{
 
 }
+.container{
+    display: flex;
+    max-width: 1280px;
+}
+.works-container{
+width: 50%;
+}
+
 section-works{
     padding: 100px;
         width: 630px;
         height: 759px;
+        flex: 1;
+        background-color: #7a3145;;
 }
 .works-list{
     padding: 100px 100px 160px 100px;
         width: 650px;
         height: 759px;
+        flex: 1;
+}
+
+.works-image{
+
 }
 
 .steps-list {
