@@ -1,0 +1,38 @@
+how-it-works-section{
+
+}
+section-works{
+    padding: 100px;
+        width: 630px;
+        height: 759px;
+}
+.works-list{
+    padding: 100px 100px 160px 100px;
+        width: 650px;
+        height: 759px;
+}
+
+.steps-list {
+    list-style: none;
+    counter-reset: step-counter;
+}
+
+.steps-list li::before {
+    content: counter(step-counter);
+    counter-increment: step-counter;
+    margin-right: 0.5em;
+    /* Додайте відступ між лічильником і текстом */
+    font-weight: bold;
+    /* Додайте жирний шрифт для лічильника */
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
