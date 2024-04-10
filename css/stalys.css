@@ -1,45 +1,9 @@
-how-it-works-section{
-
-}
-.container{
+.how-it-works-section {
+    width: 375px;
+    height: 1184px;
     display: flex;
-    max-width: 1280px;
-}
-.works-container{
-width: 50%;
 }
 
-section-works{
-    padding: 100px;
-        width: 630px;
-        height: 759px;
-        flex: 1;
-        background-color: #7a3145;;
-}
-.works-list{
-    padding: 100px 100px 160px 100px;
-        width: 650px;
-        height: 759px;
-        flex: 1;
-}
-
-.works-image{
-
-}
-
-.steps-list {
-    list-style: none;
-    counter-reset: step-counter;
-}
-
-.steps-list li::before {
-    content: counter(step-counter);
-    counter-increment: step-counter;
-    margin-right: 0.5em;
-    /* Додайте відступ між лічильником і текстом */
-    font-weight: bold;
-    /* Додайте жирний шрифт для лічильника */
-}
 
 .visually-hidden {
     position: absolute;
@@ -51,3 +15,93 @@ section-works{
     clip: rect(0, 0, 0, 0);
     border: 0;
 }
+
+.section-works{
+padding: 40px 20px;
+    width: 375px;
+    height: 530px;
+               background-color: #7a3145;;
+ 
+}
+
+.works-image {
+    border-radius: 30px;
+    width: 335px;
+    height: 450px;
+    margin-bottom: ;
+}
+
+
+.works-list{
+padding: 80px 20px;
+    width: 375px;
+    height: 654px;
+     
+        background-color: #576f35;
+               rgba(20, 20, 20, 0.3);
+}
+
+
+.steps-list {
+    list-style: none;
+    counter-reset: step-counter;
+    width: calc((100% - 24px) / 2);
+}
+
+.steps-list li::before {
+border-radius: 15px;
+    padding: 12px 27px 12px 24px;
+    width: 335px;
+    height: 76px;
+    background-color: #fbfbfb;
+}
+
+.works-titel{
+font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+        color: #fbfbfb;
+        margin-bottom: 20px;
+
+}
+
+.works-p{
+font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    margin-bottom: 40px;
+}
+
+
+.steps-item-title{
+    font-weight: 500;
+        font-size: 12px;
+        line-height: 117%;
+        letter-spacing: -0.02em;
+        color: rgba(20, 20, 20, 0.6);
+}
+.steps-item{
+    border-radius: 15px;
+        padding: 12px 27px 12px 24px;
+        width: 335px;
+        height: 76px;
+        background-color: #fbfbfb;
+
+}
+.icons{
+border-radius: 100%;
+    fill: var(--background-2);
+    stroke-width: 5px;
+    stroke: rgba(122, 49, 69, 0.3);
+}
+.steps-list li{
+    margin-bottom: 20px;
+}
+ .steps-list li::before{
+    border-radius: 15px;
+        padding: 12px 27px 12px 24px;
+        width: 335px;
+        height: 76px;
+ }
